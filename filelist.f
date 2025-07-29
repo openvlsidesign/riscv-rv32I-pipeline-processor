@@ -1,0 +1,12 @@
+control_hazard_tb.sv
+alu_decoder.sv
+alu.sv
+controller.sv
+data_mem.sv
+hazard_unit.sv
+instr_mem.sv
+main_decoder.sv
+program_counter.sv
+register_file.sv
+riscv_top.sv
+sign_extend.sv
