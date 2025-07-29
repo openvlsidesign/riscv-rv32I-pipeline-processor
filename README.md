@@ -51,7 +51,7 @@ addi x1, x0, 5
 add x2, x1, x1   # Depends on x1
 add x3, x2, x1   # Depends on x2
 ```
-### 🔁 Data Hazard (RAW) Test:
+### 🔁 Control Hazard Test:
 ```assembly
 beq x1, x1, LABEL
 addi x8, x0, 1      # Should be flushed if branch taken
